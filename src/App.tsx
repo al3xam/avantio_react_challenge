@@ -1,10 +1,10 @@
 import "./App.css";
-import GoStepperComponent from "./app/components/stepper/stepper.component";
+import StepperForm from "./app/components/stepper/stepperForm.component";
 
 function App() {
   return (
     <div className="form-container">
-      <GoStepperComponent />
+      <StepperForm />
     </div>
   );
 }

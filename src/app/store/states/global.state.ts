@@ -16,7 +16,7 @@ export const initialState: initialStateType = {
         address: "",
         description: "",
         type: "",
-        photos: "",
+        images: [],
       },
       owner: {
         name: "",
@@ -27,7 +27,7 @@ export const initialState: initialStateType = {
   },
 };
 
-type stepperDataProps = {
+export type stepperDataProps = {
   accommodation: accommodationData;
   owner: ownerData;
 };
@@ -37,7 +37,7 @@ export type accommodationData = {
   address: string;
   description: string;
   type: string;
-  photos: "";
+  images: string[];
 };
 
 export type ownerData = {
